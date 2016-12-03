@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <meta charset="utf-8">
+      <title>Chat App</title>
+      <link rel="stylesheet" href="style.css"/>
+      <script src="https://cdn.jsdelivr.net/emojione/2.2.6/lib/js/emojione.min.js"></script>
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/emojione/2.2.6/assets/css/emojione.min.css"/>
+  </head>
+
+  <body>
+    <section>
+      <h1>Chat App</h1>
+
+      <div id="display"></div>
+
+      <form method="POST" action="http://tiy-orl-proxy.herokuapp.com/messages">
+          <input id="message" placeholder="message">
+      </form>
+      <input id="username" placeholder="username" onkeyup="saveUsername(this)">
+
+
+
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+      <script src="main.js"></script>
+
+    </section>
+  </body>
+</html>
