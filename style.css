@@ -1,5 +1,49 @@
+section {
+  width: 25em;
+  display: block;
+  margin: auto;
+  border: 5px solid #1a1d21;
+  background-color: #DB504A;
+}
+
+h1 {
+  text-align: center;
+  font-family: 'Bowlby One', cursive;
+  color: #FCFCFC;
+  letter-spacing: 3px;
+  font-size: 40px;
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+
 #display {
   max-height: 10em;
-  max-width: 30em;
+  max-width: 25em;
   overflow: scroll;
+  background-color: #FCFCFC;
+  padding-left: 17px;
+}
+
+input {
+  display: inline-block;
+  width: 52em;
+  height: 30px;
+  margin-left: 8px;
+}
+
+#message {
+  margin-top: 13px;
+}
+
+#username {
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 20px;
+  font-family: 'Hind Siliguri', sans-serif;
+}
+
+::-webkit-input-placeholder {
+  padding-left: 10px;
 }

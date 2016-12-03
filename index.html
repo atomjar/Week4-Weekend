@@ -4,18 +4,19 @@
       <meta charset="utf-8">
       <title>Chat App</title>
       <link rel="stylesheet" href="style.css"/>
+      <link href="https://fonts.googleapis.com/css?family=Bowlby+One|Hind+Siliguri" rel="stylesheet">
       <script src="https://cdn.jsdelivr.net/emojione/2.2.6/lib/js/emojione.min.js"></script>
       <link rel="stylesheet" href="https://cdn.jsdelivr.net/emojione/2.2.6/assets/css/emojione.min.css"/>
   </head>
 
   <body>
     <section>
-      <h1>Chat App</h1>
+      <h1>The Iron Chat</h1>
 
       <div id="display"></div>
 
       <form method="POST" action="http://tiy-orl-proxy.herokuapp.com/messages">
-          <input id="message" placeholder="message">
+          <input id="message" placeholder="What've you got to say?">
       </form>
       <input id="username" placeholder="username" onkeyup="saveUsername(this)">
 
